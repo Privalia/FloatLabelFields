@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FloatLabelFields_Tests' do
+  pod 'FloatLabelFields', :path => '../'
+  
+  
+end
