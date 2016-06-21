@@ -9,8 +9,8 @@
 import UIKit
 
 @IBDesignable public class FloatLabelTextView: UITextView {
-    let animationDuration = 0.3
-    let placeholderTextColor = UIColor.lightGrayColor().colorWithAlphaComponent(0.65)
+    public let animationDuration = 0.3
+    public let placeholderTextColor = UIColor.lightGrayColor().colorWithAlphaComponent(0.65)
     private var isIB = false
     private var title = UILabel()
     private var hintLabel = UILabel()
@@ -29,13 +29,13 @@ import UIKit
         }
     }
 
-    var titleFont: UIFont = UIFont.systemFontOfSize(12.0) {
+    public var titleFont: UIFont = UIFont.systemFontOfSize(12.0) {
         didSet {
             title.font = titleFont
         }
     }
 
-    @IBInspectable var hint: String = "" {
+    @IBInspectable public var hint: String = "" {
         didSet {
             title.text = hint
             title.sizeToFit()
@@ -47,13 +47,13 @@ import UIKit
         }
     }
 
-    @IBInspectable var hintYPadding: CGFloat = 0.0 {
+    @IBInspectable public var hintYPadding: CGFloat = 0.0 {
         didSet {
             adjustTopTextInset()
         }
     }
 
-    @IBInspectable var titleYPadding: CGFloat = 0.0 {
+    @IBInspectable public var titleYPadding: CGFloat = 0.0 {
         didSet {
             var r = title.frame
             r.origin.y = titleYPadding
@@ -61,7 +61,7 @@ import UIKit
         }
     }
 
-    @IBInspectable var titleTextColour: UIColor = UIColor.grayColor() {
+    @IBInspectable public var titleTextColour: UIColor = UIColor.grayColor() {
         didSet {
             if !isFirstResponder() {
                 title.textColor = titleTextColour
@@ -69,7 +69,7 @@ import UIKit
         }
     }
 
-    @IBInspectable var titleActiveTextColour: UIColor = UIColor.cyanColor() {
+    @IBInspectable public var titleActiveTextColour: UIColor = UIColor.cyanColor() {
         didSet {
             if isFirstResponder() {
                 title.textColor = titleActiveTextColour

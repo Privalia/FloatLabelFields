@@ -15,8 +15,8 @@
 import UIKit
 
 @IBDesignable public class FloatLabelTextField: UITextField {
-    let animationDuration = 0.3
-    var title = UILabel()
+    public let animationDuration = 0.3
+    public var title = UILabel()
 
     // MARK:- Properties
     override public var accessibilityLabel: String? {
@@ -46,16 +46,16 @@ import UIKit
         }
     }
 
-    var titleFont: UIFont = UIFont.systemFontOfSize(12.0) {
+    public var titleFont: UIFont = UIFont.systemFontOfSize(12.0) {
         didSet {
             title.font = titleFont
             title.sizeToFit()
         }
     }
 
-    @IBInspectable var hintYPadding: CGFloat = 0.0
+    @IBInspectable public var hintYPadding: CGFloat = 0.0
 
-    @IBInspectable var titleYPadding: CGFloat = 0.0 {
+    @IBInspectable public var titleYPadding: CGFloat = 0.0 {
         didSet {
             var r = title.frame
             r.origin.y = titleYPadding
@@ -63,7 +63,7 @@ import UIKit
         }
     }
 
-    @IBInspectable var titleTextColour: UIColor = UIColor.grayColor() {
+    @IBInspectable public var titleTextColour: UIColor = UIColor.grayColor() {
         didSet {
             if !isFirstResponder() {
                 title.textColor = titleTextColour
@@ -71,7 +71,7 @@ import UIKit
         }
     }
 
-    @IBInspectable var titleActiveTextColour: UIColor! {
+    @IBInspectable public var titleActiveTextColour: UIColor! {
         didSet {
             if isFirstResponder() {
                 title.textColor = titleActiveTextColour
