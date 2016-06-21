@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		177EE35FEDF9C35461BD4249E31D875A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		472A1A561C0619489DC18AD32D2D9310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		53DAE38C1D194BD900106F10 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAE38A1D194BD900106F10 /* FloatLabelTextField.swift */; };
+		53DAE38D1D194BD900106F10 /* FloatLabelTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAE38B1D194BD900106F10 /* FloatLabelTextView.swift */; };
+		546D332AE5EA95EAA539B32F0E4700F7 /* Pods-FloatLabelFields_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA355C9D509354AC8BCBEFE2833513B /* Pods-FloatLabelFields_Tests-dummy.m */; };
+		6404CA913F5D4FA85C0D9708A94FE650 /* FloatLabelFields-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B09CCB2438CA2581D2E52C75136B9F92 /* FloatLabelFields-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CA8619018C7748529342E15DE34F1C3 /* Pods-FloatLabelFields_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9CD66BCAE963E7C0855E523C4F1DF73 /* Pods-FloatLabelFields_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7167EC75041343A98C881D0822389F9 /* FloatLabelFields-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B27539818152CD1821EAAEC12C7D7AA9 /* FloatLabelFields-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEFDCDD4FCC6138B1594F4598E464157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96E24B17E55D2D34C4E572E0E36ADD6E;
+			remoteInfo = FloatLabelFields;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FC653D26CBF2F90986B8D02C66E38EC /* FloatLabelFields.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FloatLabelFields.modulemap; sourceTree = "<group>"; };
+		1584B698BB0D8D7C208C00986190E2CE /* Pods_FloatLabelFields_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloatLabelFields_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAD6F30BF254FA4F334FEC0AAEA851A /* Pods-FloatLabelFields_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloatLabelFields_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		21D46F0D41D0A75EC23E9AE88F71B84F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2534F33C579F12F36314ED9C88C36250 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409036A81091DF946288AFD6CB5174EB /* FloatLabelFields.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FloatLabelFields.xcconfig; sourceTree = "<group>"; };
+		53DAE38A1D194BD900106F10 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		53DAE38B1D194BD900106F10 /* FloatLabelTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextView.swift; sourceTree = "<group>"; };
+		5B6A9FC7E400B7BDE5CA83820ED7E17E /* FloatLabelFields.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FloatLabelFields.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D261A535AAE8DB18DF804FA9674EC2D /* Pods-FloatLabelFields_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloatLabelFields_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		646ADA1F6F22D0DF6E42698CCE64D461 /* Pods-FloatLabelFields_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FloatLabelFields_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6DD2FDFD8801C102D9612A2A394C6DDE /* Pods-FloatLabelFields_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FloatLabelFields_Tests.modulemap"; sourceTree = "<group>"; };
+		8DA355C9D509354AC8BCBEFE2833513B /* Pods-FloatLabelFields_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FloatLabelFields_Tests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB987EF2D57C794E81104CB228AA81F /* Pods-FloatLabelFields_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FloatLabelFields_Tests-resources.sh"; sourceTree = "<group>"; };
+		AD6391F65210C795F71173EA16F34B76 /* FloatLabelFields-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FloatLabelFields-prefix.pch"; sourceTree = "<group>"; };
+		B09CCB2438CA2581D2E52C75136B9F92 /* FloatLabelFields-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FloatLabelFields-umbrella.h"; sourceTree = "<group>"; };
+		B27539818152CD1821EAAEC12C7D7AA9 /* FloatLabelFields-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FloatLabelFields-dummy.m"; sourceTree = "<group>"; };
+		B9CD66BCAE963E7C0855E523C4F1DF73 /* Pods-FloatLabelFields_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FloatLabelFields_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1260C7AFE3B794C21331C2FE2B9136B /* Pods-FloatLabelFields_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FloatLabelFields_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6647647154702D54111CB712B8A7254 /* Pods-FloatLabelFields_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloatLabelFields_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5006ED28FC57119A218F711E25D71D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177EE35FEDF9C35461BD4249E31D875A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A94ADD2D5FFEE9D3BD3592CBF5B9A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472A1A561C0619489DC18AD32D2D9310 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CF336650445870345EB0745D609B8D1 /* FloatLabelFields */ = {
+			isa = PBXGroup;
+			children = (
+				3E413B1B80C67B47DD5AD7B92845E93F /* FloatLabelFields */,
+				A94C9F155C1B625580E1F4BB96E0C533 /* Support Files */,
+			);
+			name = FloatLabelFields;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2D3817086DF939AA994EEE232D34E075 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				53DAE38A1D194BD900106F10 /* FloatLabelTextField.swift */,
+				53DAE38B1D194BD900106F10 /* FloatLabelTextView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3E413B1B80C67B47DD5AD7B92845E93F /* FloatLabelFields */ = {
+			isa = PBXGroup;
+			children = (
+				2D3817086DF939AA994EEE232D34E075 /* Classes */,
+			);
+			path = FloatLabelFields;
+			sourceTree = "<group>";
+		};
+		57D8CEB53E17E739023C77E644356E8D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CF336650445870345EB0745D609B8D1 /* FloatLabelFields */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5ADB8888931BCC3E15156A9CD94A67F0 /* Pods-FloatLabelFields_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				21D46F0D41D0A75EC23E9AE88F71B84F /* Info.plist */,
+				6DD2FDFD8801C102D9612A2A394C6DDE /* Pods-FloatLabelFields_Tests.modulemap */,
+				D1260C7AFE3B794C21331C2FE2B9136B /* Pods-FloatLabelFields_Tests-acknowledgements.markdown */,
+				1FAD6F30BF254FA4F334FEC0AAEA851A /* Pods-FloatLabelFields_Tests-acknowledgements.plist */,
+				8DA355C9D509354AC8BCBEFE2833513B /* Pods-FloatLabelFields_Tests-dummy.m */,
+				646ADA1F6F22D0DF6E42698CCE64D461 /* Pods-FloatLabelFields_Tests-frameworks.sh */,
+				9DB987EF2D57C794E81104CB228AA81F /* Pods-FloatLabelFields_Tests-resources.sh */,
+				B9CD66BCAE963E7C0855E523C4F1DF73 /* Pods-FloatLabelFields_Tests-umbrella.h */,
+				E6647647154702D54111CB712B8A7254 /* Pods-FloatLabelFields_Tests.debug.xcconfig */,
+				5D261A535AAE8DB18DF804FA9674EC2D /* Pods-FloatLabelFields_Tests.release.xcconfig */,
+			);
+			name = "Pods-FloatLabelFields_Tests";
+			path = "Target Support Files/Pods-FloatLabelFields_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				57D8CEB53E17E739023C77E644356E8D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F34304AB3248550C2827BD6757BC929F /* Products */,
+				C607C1A698EF49C90A3CF41AEA5DE570 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A94C9F155C1B625580E1F4BB96E0C533 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FC653D26CBF2F90986B8D02C66E38EC /* FloatLabelFields.modulemap */,
+				409036A81091DF946288AFD6CB5174EB /* FloatLabelFields.xcconfig */,
+				B27539818152CD1821EAAEC12C7D7AA9 /* FloatLabelFields-dummy.m */,
+				AD6391F65210C795F71173EA16F34B76 /* FloatLabelFields-prefix.pch */,
+				B09CCB2438CA2581D2E52C75136B9F92 /* FloatLabelFields-umbrella.h */,
+				2534F33C579F12F36314ED9C88C36250 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FloatLabelFields";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C607C1A698EF49C90A3CF41AEA5DE570 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ADB8888931BCC3E15156A9CD94A67F0 /* Pods-FloatLabelFields_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F34304AB3248550C2827BD6757BC929F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B6A9FC7E400B7BDE5CA83820ED7E17E /* FloatLabelFields.framework */,
+				1584B698BB0D8D7C208C00986190E2CE /* Pods_FloatLabelFields_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F583A0A0BDA84D594E34A48A6D319AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6404CA913F5D4FA85C0D9708A94FE650 /* FloatLabelFields-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CCB676FC090A357D55B4549152B590 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA8619018C7748529342E15DE34F1C3 /* Pods-FloatLabelFields_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		96E24B17E55D2D34C4E572E0E36ADD6E /* FloatLabelFields */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711C1810BB30570A005ACF23EFD5F158 /* Build configuration list for PBXNativeTarget "FloatLabelFields" */;
+			buildPhases = (
+				46FBC6217D87747E7A876BCE34AD82B4 /* Sources */,
+				5A94ADD2D5FFEE9D3BD3592CBF5B9A58 /* Frameworks */,
+				4F583A0A0BDA84D594E34A48A6D319AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloatLabelFields;
+			productName = FloatLabelFields;
+			productReference = 5B6A9FC7E400B7BDE5CA83820ED7E17E /* FloatLabelFields.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A149ADEEE86590DEE004EEB42F12192C /* Pods-FloatLabelFields_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15CDE1ED560C3B60B2891FD6FA130D5B /* Build configuration list for PBXNativeTarget "Pods-FloatLabelFields_Tests" */;
+			buildPhases = (
+				7B824E98712D64E85C3C21BD40B4F49A /* Sources */,
+				5006ED28FC57119A218F711E25D71D55 /* Frameworks */,
+				64CCB676FC090A357D55B4549152B590 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21A8426784B87BFC0D806A3D88716DEE /* PBXTargetDependency */,
+			);
+			name = "Pods-FloatLabelFields_Tests";
+			productName = "Pods-FloatLabelFields_Tests";
+			productReference = 1584B698BB0D8D7C208C00986190E2CE /* Pods_FloatLabelFields_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F34304AB3248550C2827BD6757BC929F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96E24B17E55D2D34C4E572E0E36ADD6E /* FloatLabelFields */,
+				A149ADEEE86590DEE004EEB42F12192C /* Pods-FloatLabelFields_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46FBC6217D87747E7A876BCE34AD82B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DAE38D1D194BD900106F10 /* FloatLabelTextView.swift in Sources */,
+				D7167EC75041343A98C881D0822389F9 /* FloatLabelFields-dummy.m in Sources */,
+				53DAE38C1D194BD900106F10 /* FloatLabelTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B824E98712D64E85C3C21BD40B4F49A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546D332AE5EA95EAA539B32F0E4700F7 /* Pods-FloatLabelFields_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21A8426784B87BFC0D806A3D88716DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FloatLabelFields;
+			target = 96E24B17E55D2D34C4E572E0E36ADD6E /* FloatLabelFields */;
+			targetProxy = AEFDCDD4FCC6138B1594F4598E464157 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		268D5BB1B463414349A2363ADDEE4F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409036A81091DF946288AFD6CB5174EB /* FloatLabelFields.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FloatLabelFields/FloatLabelFields-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FloatLabelFields/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FloatLabelFields/FloatLabelFields.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FloatLabelFields;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B643DD2B49D2309DCFEEF5559D139AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409036A81091DF946288AFD6CB5174EB /* FloatLabelFields.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FloatLabelFields/FloatLabelFields-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FloatLabelFields/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FloatLabelFields/FloatLabelFields.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FloatLabelFields;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F030D6DDF03330E2EAE4681EA9505F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D261A535AAE8DB18DF804FA9674EC2D /* Pods-FloatLabelFields_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FloatLabelFields_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FloatLabelFields_Tests/Pods-FloatLabelFields_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FloatLabelFields_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F986BAB510FC18E8D8C1F1A0D509E554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6647647154702D54111CB712B8A7254 /* Pods-FloatLabelFields_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FloatLabelFields_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FloatLabelFields_Tests/Pods-FloatLabelFields_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FloatLabelFields_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15CDE1ED560C3B60B2891FD6FA130D5B /* Build configuration list for PBXNativeTarget "Pods-FloatLabelFields_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F986BAB510FC18E8D8C1F1A0D509E554 /* Debug */,
+				F030D6DDF03330E2EAE4681EA9505F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711C1810BB30570A005ACF23EFD5F158 /* Build configuration list for PBXNativeTarget "FloatLabelFields" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B643DD2B49D2309DCFEEF5559D139AE /* Debug */,
+				268D5BB1B463414349A2363ADDEE4F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - FloatLabelFields (0.1.0)
+
+DEPENDENCIES:
+  - FloatLabelFields (from `../`)
+
+EXTERNAL SOURCES:
+  FloatLabelFields:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FloatLabelFields: 0244eee8255c4f1418e7b98679ece23f6183d171
+
+PODFILE CHECKSUM: b264e3be1dae5202e2df101024a31119c0b27c4d
+
+COCOAPODS: 1.0.1

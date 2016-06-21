@@ -1,0 +1,22 @@
+{
+  "name": "FloatLabelFields",
+  "version": "0.1.0",
+  "summary": "A short description of FloatLabelFields.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/FloatLabelFields",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ferran Abelló": "ferran.abello@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/FloatLabelFields.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FloatLabelFields/Classes/**/*"
+}

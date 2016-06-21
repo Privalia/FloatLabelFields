@@ -1,0 +1,6 @@
+framework module FloatLabelFields {
+  umbrella header "FloatLabelFields-umbrella.h"
+
+  export *
+  module * { export * }
+}
