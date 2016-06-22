@@ -110,41 +110,12 @@ import UIKit
         }
     }
 
-    override public func textRectForBounds(bounds: CGRect) -> CGRect {
-        var r = super.textRectForBounds(bounds)
-        if !text!.isEmpty {
-            var top = ceil(title.font.lineHeight + hintYPadding)
-            top = min(top, maxTopInset())
-            r = UIEdgeInsetsInsetRect(r, UIEdgeInsetsMake(top, 0.0, 0.0, 0.0))
-        }
-        return CGRectIntegral(r)
-    }
-
-    override public func editingRectForBounds(bounds: CGRect) -> CGRect {
-        var r = super.editingRectForBounds(bounds)
-        if !text!.isEmpty {
-            var top = ceil(title.font.lineHeight + hintYPadding)
-            top = min(top, maxTopInset())
-            r = UIEdgeInsetsInsetRect(r, UIEdgeInsetsMake(top, 0.0, 0.0, 0.0))
-        }
-        return CGRectIntegral(r)
-    }
-
-    override public func clearButtonRectForBounds(bounds: CGRect) -> CGRect {
-        var r = super.clearButtonRectForBounds(bounds)
-        if !text!.isEmpty {
-            var top = ceil(title.font.lineHeight + hintYPadding)
-            top = min(top, maxTopInset())
-            r = CGRect(x: r.origin.x, y: r.origin.y + (top * 0.5), width: r.size.width, height: r.size.height)
-        }
-        return CGRectIntegral(r)
-    }
-
     // MARK:- Public Methods
 
     // MARK:- Private Methods
     private func setup() {
         borderStyle = UITextBorderStyle.None
+        clipsToBounds = false
         titleActiveTextColour = tintColor
         // Set up title label
         title.alpha = 0.0
@@ -180,7 +151,7 @@ import UIKit
             // Animation
             self.title.alpha = 1.0
             var r = self.title.frame
-            r.origin.y = self.titleYPadding
+            r.origin.y = -self.title.frame.height / 3
             self.title.frame = r
             }, completion: nil)
     }
